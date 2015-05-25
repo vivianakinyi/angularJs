@@ -1,0 +1,853 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/usr/bin/node', '/usr/bin/npm', 'install' ]
+2 info using npm@1.4.28
+3 info using node@v0.10.38
+4 verbose node symlink /usr/bin/node
+5 verbose readDependencies using package.json deps
+6 verbose install where, deps [ '/home/vivian/Desktop/Angularjs/angular-phonecat',
+6 verbose install   [ 'karma',
+6 verbose install     'karma-chrome-launcher',
+6 verbose install     'karma-jasmine',
+6 verbose install     'protractor',
+6 verbose install     'http-server',
+6 verbose install     'tmp',
+6 verbose install     'bower',
+6 verbose install     'shelljs' ] ]
+7 info preinstall angular-phonecat@0.0.0
+8 verbose readDependencies using package.json deps
+9 verbose cache add [ 'karma@^0.12.16', null ]
+10 verbose cache add name=undefined spec="karma@^0.12.16" args=["karma@^0.12.16",null]
+11 verbose parsed url { protocol: null,
+11 verbose parsed url   slashes: null,
+11 verbose parsed url   auth: null,
+11 verbose parsed url   host: null,
+11 verbose parsed url   port: null,
+11 verbose parsed url   hostname: null,
+11 verbose parsed url   hash: null,
+11 verbose parsed url   search: null,
+11 verbose parsed url   query: null,
+11 verbose parsed url   pathname: 'karma@^0.12.16',
+11 verbose parsed url   path: 'karma@^0.12.16',
+11 verbose parsed url   href: 'karma@^0.12.16' }
+12 verbose cache add [ 'karma-chrome-launcher@^0.1.4', null ]
+13 verbose cache add name=undefined spec="karma-chrome-launcher@^0.1.4" args=["karma-chrome-launcher@^0.1.4",null]
+14 verbose parsed url { protocol: null,
+14 verbose parsed url   slashes: null,
+14 verbose parsed url   auth: null,
+14 verbose parsed url   host: null,
+14 verbose parsed url   port: null,
+14 verbose parsed url   hostname: null,
+14 verbose parsed url   hash: null,
+14 verbose parsed url   search: null,
+14 verbose parsed url   query: null,
+14 verbose parsed url   pathname: 'karma-chrome-launcher@^0.1.4',
+14 verbose parsed url   path: 'karma-chrome-launcher@^0.1.4',
+14 verbose parsed url   href: 'karma-chrome-launcher@^0.1.4' }
+15 verbose cache add [ 'karma-jasmine@^0.1.5', null ]
+16 verbose cache add name=undefined spec="karma-jasmine@^0.1.5" args=["karma-jasmine@^0.1.5",null]
+17 verbose parsed url { protocol: null,
+17 verbose parsed url   slashes: null,
+17 verbose parsed url   auth: null,
+17 verbose parsed url   host: null,
+17 verbose parsed url   port: null,
+17 verbose parsed url   hostname: null,
+17 verbose parsed url   hash: null,
+17 verbose parsed url   search: null,
+17 verbose parsed url   query: null,
+17 verbose parsed url   pathname: 'karma-jasmine@^0.1.5',
+17 verbose parsed url   path: 'karma-jasmine@^0.1.5',
+17 verbose parsed url   href: 'karma-jasmine@^0.1.5' }
+18 verbose cache add [ 'protractor@~1.0.0', null ]
+19 verbose cache add name=undefined spec="protractor@~1.0.0" args=["protractor@~1.0.0",null]
+20 verbose parsed url { protocol: null,
+20 verbose parsed url   slashes: null,
+20 verbose parsed url   auth: null,
+20 verbose parsed url   host: null,
+20 verbose parsed url   port: null,
+20 verbose parsed url   hostname: null,
+20 verbose parsed url   hash: null,
+20 verbose parsed url   search: null,
+20 verbose parsed url   query: null,
+20 verbose parsed url   pathname: 'protractor@~1.0.0',
+20 verbose parsed url   path: 'protractor@~1.0.0',
+20 verbose parsed url   href: 'protractor@~1.0.0' }
+21 verbose cache add [ 'http-server@^0.6.1', null ]
+22 verbose cache add name=undefined spec="http-server@^0.6.1" args=["http-server@^0.6.1",null]
+23 verbose parsed url { protocol: null,
+23 verbose parsed url   slashes: null,
+23 verbose parsed url   auth: null,
+23 verbose parsed url   host: null,
+23 verbose parsed url   port: null,
+23 verbose parsed url   hostname: null,
+23 verbose parsed url   hash: null,
+23 verbose parsed url   search: null,
+23 verbose parsed url   query: null,
+23 verbose parsed url   pathname: 'http-server@^0.6.1',
+23 verbose parsed url   path: 'http-server@^0.6.1',
+23 verbose parsed url   href: 'http-server@^0.6.1' }
+24 verbose cache add [ 'tmp@0.0.23', null ]
+25 verbose cache add name=undefined spec="tmp@0.0.23" args=["tmp@0.0.23",null]
+26 verbose parsed url { protocol: null,
+26 verbose parsed url   slashes: null,
+26 verbose parsed url   auth: null,
+26 verbose parsed url   host: null,
+26 verbose parsed url   port: null,
+26 verbose parsed url   hostname: null,
+26 verbose parsed url   hash: null,
+26 verbose parsed url   search: null,
+26 verbose parsed url   query: null,
+26 verbose parsed url   pathname: 'tmp@0.0.23',
+26 verbose parsed url   path: 'tmp@0.0.23',
+26 verbose parsed url   href: 'tmp@0.0.23' }
+27 verbose cache add [ 'bower@^1.3.1', null ]
+28 verbose cache add name=undefined spec="bower@^1.3.1" args=["bower@^1.3.1",null]
+29 verbose parsed url { protocol: null,
+29 verbose parsed url   slashes: null,
+29 verbose parsed url   auth: null,
+29 verbose parsed url   host: null,
+29 verbose parsed url   port: null,
+29 verbose parsed url   hostname: null,
+29 verbose parsed url   hash: null,
+29 verbose parsed url   search: null,
+29 verbose parsed url   query: null,
+29 verbose parsed url   pathname: 'bower@^1.3.1',
+29 verbose parsed url   path: 'bower@^1.3.1',
+29 verbose parsed url   href: 'bower@^1.3.1' }
+30 verbose cache add [ 'shelljs@^0.2.6', null ]
+31 verbose cache add name=undefined spec="shelljs@^0.2.6" args=["shelljs@^0.2.6",null]
+32 verbose parsed url { protocol: null,
+32 verbose parsed url   slashes: null,
+32 verbose parsed url   auth: null,
+32 verbose parsed url   host: null,
+32 verbose parsed url   port: null,
+32 verbose parsed url   hostname: null,
+32 verbose parsed url   hash: null,
+32 verbose parsed url   search: null,
+32 verbose parsed url   query: null,
+32 verbose parsed url   pathname: 'shelljs@^0.2.6',
+32 verbose parsed url   path: 'shelljs@^0.2.6',
+32 verbose parsed url   href: 'shelljs@^0.2.6' }
+33 verbose cache add name="karma" spec="^0.12.16" args=["karma","^0.12.16"]
+34 verbose parsed url { protocol: null,
+34 verbose parsed url   slashes: null,
+34 verbose parsed url   auth: null,
+34 verbose parsed url   host: null,
+34 verbose parsed url   port: null,
+34 verbose parsed url   hostname: null,
+34 verbose parsed url   hash: null,
+34 verbose parsed url   search: null,
+34 verbose parsed url   query: null,
+34 verbose parsed url   pathname: '^0.12.16',
+34 verbose parsed url   path: '^0.12.16',
+34 verbose parsed url   href: '^0.12.16' }
+35 verbose addNamed [ 'karma', '^0.12.16' ]
+36 verbose addNamed [ null, '>=0.12.16-0 <0.13.0-0' ]
+37 verbose cache add name="karma-chrome-launcher" spec="^0.1.4" args=["karma-chrome-launcher","^0.1.4"]
+38 verbose parsed url { protocol: null,
+38 verbose parsed url   slashes: null,
+38 verbose parsed url   auth: null,
+38 verbose parsed url   host: null,
+38 verbose parsed url   port: null,
+38 verbose parsed url   hostname: null,
+38 verbose parsed url   hash: null,
+38 verbose parsed url   search: null,
+38 verbose parsed url   query: null,
+38 verbose parsed url   pathname: '^0.1.4',
+38 verbose parsed url   path: '^0.1.4',
+38 verbose parsed url   href: '^0.1.4' }
+39 verbose addNamed [ 'karma-chrome-launcher', '^0.1.4' ]
+40 verbose addNamed [ null, '>=0.1.4-0 <0.2.0-0' ]
+41 verbose cache add name="karma-jasmine" spec="^0.1.5" args=["karma-jasmine","^0.1.5"]
+42 verbose parsed url { protocol: null,
+42 verbose parsed url   slashes: null,
+42 verbose parsed url   auth: null,
+42 verbose parsed url   host: null,
+42 verbose parsed url   port: null,
+42 verbose parsed url   hostname: null,
+42 verbose parsed url   hash: null,
+42 verbose parsed url   search: null,
+42 verbose parsed url   query: null,
+42 verbose parsed url   pathname: '^0.1.5',
+42 verbose parsed url   path: '^0.1.5',
+42 verbose parsed url   href: '^0.1.5' }
+43 verbose addNamed [ 'karma-jasmine', '^0.1.5' ]
+44 verbose addNamed [ null, '>=0.1.5-0 <0.2.0-0' ]
+45 verbose cache add name="protractor" spec="~1.0.0" args=["protractor","~1.0.0"]
+46 verbose parsed url { protocol: null,
+46 verbose parsed url   slashes: null,
+46 verbose parsed url   auth: null,
+46 verbose parsed url   host: null,
+46 verbose parsed url   port: null,
+46 verbose parsed url   hostname: null,
+46 verbose parsed url   hash: null,
+46 verbose parsed url   search: null,
+46 verbose parsed url   query: null,
+46 verbose parsed url   pathname: '~1.0.0',
+46 verbose parsed url   path: '~1.0.0',
+46 verbose parsed url   href: '~1.0.0' }
+47 verbose addNamed [ 'protractor', '~1.0.0' ]
+48 verbose addNamed [ null, '>=1.0.0-0 <1.1.0-0' ]
+49 verbose cache add name="http-server" spec="^0.6.1" args=["http-server","^0.6.1"]
+50 verbose parsed url { protocol: null,
+50 verbose parsed url   slashes: null,
+50 verbose parsed url   auth: null,
+50 verbose parsed url   host: null,
+50 verbose parsed url   port: null,
+50 verbose parsed url   hostname: null,
+50 verbose parsed url   hash: null,
+50 verbose parsed url   search: null,
+50 verbose parsed url   query: null,
+50 verbose parsed url   pathname: '^0.6.1',
+50 verbose parsed url   path: '^0.6.1',
+50 verbose parsed url   href: '^0.6.1' }
+51 verbose addNamed [ 'http-server', '^0.6.1' ]
+52 verbose addNamed [ null, '>=0.6.1-0 <0.7.0-0' ]
+53 verbose cache add name="tmp" spec="0.0.23" args=["tmp","0.0.23"]
+54 verbose parsed url { protocol: null,
+54 verbose parsed url   slashes: null,
+54 verbose parsed url   auth: null,
+54 verbose parsed url   host: null,
+54 verbose parsed url   port: null,
+54 verbose parsed url   hostname: null,
+54 verbose parsed url   hash: null,
+54 verbose parsed url   search: null,
+54 verbose parsed url   query: null,
+54 verbose parsed url   pathname: '0.0.23',
+54 verbose parsed url   path: '0.0.23',
+54 verbose parsed url   href: '0.0.23' }
+55 verbose addNamed [ 'tmp', '0.0.23' ]
+56 verbose addNamed [ '0.0.23', '0.0.23' ]
+57 verbose cache add name="bower" spec="^1.3.1" args=["bower","^1.3.1"]
+58 verbose parsed url { protocol: null,
+58 verbose parsed url   slashes: null,
+58 verbose parsed url   auth: null,
+58 verbose parsed url   host: null,
+58 verbose parsed url   port: null,
+58 verbose parsed url   hostname: null,
+58 verbose parsed url   hash: null,
+58 verbose parsed url   search: null,
+58 verbose parsed url   query: null,
+58 verbose parsed url   pathname: '^1.3.1',
+58 verbose parsed url   path: '^1.3.1',
+58 verbose parsed url   href: '^1.3.1' }
+59 verbose addNamed [ 'bower', '^1.3.1' ]
+60 verbose addNamed [ null, '>=1.3.1-0 <2.0.0-0' ]
+61 verbose cache add name="shelljs" spec="^0.2.6" args=["shelljs","^0.2.6"]
+62 verbose parsed url { protocol: null,
+62 verbose parsed url   slashes: null,
+62 verbose parsed url   auth: null,
+62 verbose parsed url   host: null,
+62 verbose parsed url   port: null,
+62 verbose parsed url   hostname: null,
+62 verbose parsed url   hash: null,
+62 verbose parsed url   search: null,
+62 verbose parsed url   query: null,
+62 verbose parsed url   pathname: '^0.2.6',
+62 verbose parsed url   path: '^0.2.6',
+62 verbose parsed url   href: '^0.2.6' }
+63 verbose addNamed [ 'shelljs', '^0.2.6' ]
+64 verbose addNamed [ null, '>=0.2.6-0 <0.3.0-0' ]
+65 silly lockFile 544376fe-karma-0-12-16 karma@^0.12.16
+66 verbose lock karma@^0.12.16 /home/vivian/.npm/544376fe-karma-0-12-16.lock
+67 silly lockFile cd7d8138-karma-chrome-launcher-0-1-4 karma-chrome-launcher@^0.1.4
+68 verbose lock karma-chrome-launcher@^0.1.4 /home/vivian/.npm/cd7d8138-karma-chrome-launcher-0-1-4.lock
+69 silly lockFile 36fc1519-karma-jasmine-0-1-5 karma-jasmine@^0.1.5
+70 verbose lock karma-jasmine@^0.1.5 /home/vivian/.npm/36fc1519-karma-jasmine-0-1-5.lock
+71 silly lockFile f198f730-protractor-1-0-0 protractor@~1.0.0
+72 verbose lock protractor@~1.0.0 /home/vivian/.npm/f198f730-protractor-1-0-0.lock
+73 silly lockFile e7eeaefd-http-server-0-6-1 http-server@^0.6.1
+74 verbose lock http-server@^0.6.1 /home/vivian/.npm/e7eeaefd-http-server-0-6-1.lock
+75 silly lockFile f7638ceb-tmp-0-0-23 tmp@0.0.23
+76 verbose lock tmp@0.0.23 /home/vivian/.npm/f7638ceb-tmp-0-0-23.lock
+77 silly lockFile 7c83895e-bower-1-3-1 bower@^1.3.1
+78 verbose lock bower@^1.3.1 /home/vivian/.npm/7c83895e-bower-1-3-1.lock
+79 silly lockFile cdaabbbd-shelljs-0-2-6 shelljs@^0.2.6
+80 verbose lock shelljs@^0.2.6 /home/vivian/.npm/cdaabbbd-shelljs-0-2-6.lock
+81 silly addNameRange { name: 'karma', range: '>=0.12.16-0 <0.13.0-0', hasData: false }
+82 silly addNameRange { name: 'karma-chrome-launcher',
+82 silly addNameRange   range: '>=0.1.4-0 <0.2.0-0',
+82 silly addNameRange   hasData: false }
+83 silly addNameRange { name: 'karma-jasmine',
+83 silly addNameRange   range: '>=0.1.5-0 <0.2.0-0',
+83 silly addNameRange   hasData: false }
+84 silly addNameRange { name: 'protractor',
+84 silly addNameRange   range: '>=1.0.0-0 <1.1.0-0',
+84 silly addNameRange   hasData: false }
+85 silly addNameRange { name: 'http-server',
+85 silly addNameRange   range: '>=0.6.1-0 <0.7.0-0',
+85 silly addNameRange   hasData: false }
+86 silly addNameRange { name: 'bower', range: '>=1.3.1-0 <2.0.0-0', hasData: false }
+87 silly addNameRange { name: 'shelljs', range: '>=0.2.6-0 <0.3.0-0', hasData: false }
+88 verbose request where is /karma-jasmine
+89 verbose request registry https://registry.npmjs.org/
+90 verbose request id e7c8c75f989970b7
+91 verbose url raw /karma-jasmine
+92 verbose url resolving [ 'https://registry.npmjs.org/', './karma-jasmine' ]
+93 verbose url resolved https://registry.npmjs.org/karma-jasmine
+94 verbose request where is https://registry.npmjs.org/karma-jasmine
+95 info trying registry request attempt 1 at 08:07:06
+96 verbose etag "VORR8LHWJK4QEZWHEI16MFVJ"
+97 http GET https://registry.npmjs.org/karma-jasmine
+98 verbose request where is /protractor
+99 verbose request registry https://registry.npmjs.org/
+100 verbose url raw /protractor
+101 verbose url resolving [ 'https://registry.npmjs.org/', './protractor' ]
+102 verbose url resolved https://registry.npmjs.org/protractor
+103 verbose request where is https://registry.npmjs.org/protractor
+104 info trying registry request attempt 1 at 08:07:06
+105 verbose etag "ETXR37D8SAPOZHGVSSW966B9D"
+106 http GET https://registry.npmjs.org/protractor
+107 info retry will retry, error on last attempt: Error: tunneling socket could not be established, cause=getaddrinfo ENOTFOUND
+108 info retry will retry, error on last attempt: Error: tunneling socket could not be established, cause=getaddrinfo ENOTFOUND
+109 verbose request where is /karma
+110 verbose request registry https://registry.npmjs.org/
+111 verbose url raw /karma
+112 verbose url resolving [ 'https://registry.npmjs.org/', './karma' ]
+113 verbose url resolved https://registry.npmjs.org/karma
+114 verbose request where is https://registry.npmjs.org/karma
+115 info trying registry request attempt 1 at 08:07:06
+116 verbose etag "8685RAQL1PW1BSYF9GWKIPFKG"
+117 http GET https://registry.npmjs.org/karma
+118 verbose request where is /http-server
+119 verbose request registry https://registry.npmjs.org/
+120 verbose url raw /http-server
+121 verbose url resolving [ 'https://registry.npmjs.org/', './http-server' ]
+122 verbose url resolved https://registry.npmjs.org/http-server
+123 verbose request where is https://registry.npmjs.org/http-server
+124 info trying registry request attempt 1 at 08:07:06
+125 verbose etag "49E8TO09NC75K07BOJVRPOK44"
+126 http GET https://registry.npmjs.org/http-server
+127 verbose request where is /karma-chrome-launcher
+128 verbose request registry https://registry.npmjs.org/
+129 verbose url raw /karma-chrome-launcher
+130 verbose url resolving [ 'https://registry.npmjs.org/', './karma-chrome-launcher' ]
+131 verbose url resolved https://registry.npmjs.org/karma-chrome-launcher
+132 verbose request where is https://registry.npmjs.org/karma-chrome-launcher
+133 info trying registry request attempt 1 at 08:07:06
+134 verbose etag "7SBUM18AQ875Q6AWWXQ3ZFH99"
+135 http GET https://registry.npmjs.org/karma-chrome-launcher
+136 verbose request where is /bower
+137 verbose request registry https://registry.npmjs.org/
+138 verbose url raw /bower
+139 verbose url resolving [ 'https://registry.npmjs.org/', './bower' ]
+140 verbose url resolved https://registry.npmjs.org/bower
+141 verbose request where is https://registry.npmjs.org/bower
+142 info trying registry request attempt 1 at 08:07:06
+143 verbose etag "AJZG3F9BBUBU91J9Y6TINU9II"
+144 http GET https://registry.npmjs.org/bower
+145 verbose request where is /shelljs
+146 verbose request registry https://registry.npmjs.org/
+147 verbose url raw /shelljs
+148 verbose url resolving [ 'https://registry.npmjs.org/', './shelljs' ]
+149 verbose url resolved https://registry.npmjs.org/shelljs
+150 verbose request where is https://registry.npmjs.org/shelljs
+151 info trying registry request attempt 1 at 08:07:06
+152 verbose etag "E9REU2SU6ZTN8DSHU9RRQK8L9"
+153 http GET https://registry.npmjs.org/shelljs
+154 verbose request where is /tmp
+155 verbose request registry https://registry.npmjs.org/
+156 verbose url raw /tmp
+157 verbose url resolving [ 'https://registry.npmjs.org/', './tmp' ]
+158 verbose url resolved https://registry.npmjs.org/tmp
+159 verbose request where is https://registry.npmjs.org/tmp
+160 info trying registry request attempt 1 at 08:07:06
+161 verbose etag "5JKD5P9ZJ10Q5JLNWNZ0ZSBWP"
+162 http GET https://registry.npmjs.org/tmp
+163 info retry will retry, error on last attempt: Error: tunneling socket could not be established, cause=getaddrinfo ENOTFOUND
+164 info retry will retry, error on last attempt: Error: tunneling socket could not be established, cause=getaddrinfo ENOTFOUND
+165 info retry will retry, error on last attempt: Error: tunneling socket could not be established, cause=getaddrinfo ENOTFOUND
+166 info retry will retry, error on last attempt: Error: tunneling socket could not be established, cause=getaddrinfo ENOTFOUND
+167 info retry will retry, error on last attempt: Error: tunneling socket could not be established, cause=getaddrinfo ENOTFOUND
+168 info retry will retry, error on last attempt: Error: tunneling socket could not be established, cause=getaddrinfo ENOTFOUND
+169 info trying registry request attempt 2 at 08:07:16
+170 verbose etag "VORR8LHWJK4QEZWHEI16MFVJ"
+171 http GET https://registry.npmjs.org/karma-jasmine
+172 info trying registry request attempt 2 at 08:07:16
+173 verbose etag "ETXR37D8SAPOZHGVSSW966B9D"
+174 http GET https://registry.npmjs.org/protractor
+175 info retry will retry, error on last attempt: Error: tunneling socket could not be established, cause=getaddrinfo ENOTFOUND
+176 info retry will retry, error on last attempt: Error: tunneling socket could not be established, cause=getaddrinfo ENOTFOUND
+177 info trying registry request attempt 2 at 08:07:16
+178 verbose etag "8685RAQL1PW1BSYF9GWKIPFKG"
+179 http GET https://registry.npmjs.org/karma
+180 info trying registry request attempt 2 at 08:07:16
+181 verbose etag "49E8TO09NC75K07BOJVRPOK44"
+182 http GET https://registry.npmjs.org/http-server
+183 info trying registry request attempt 2 at 08:07:16
+184 verbose etag "7SBUM18AQ875Q6AWWXQ3ZFH99"
+185 http GET https://registry.npmjs.org/karma-chrome-launcher
+186 info trying registry request attempt 2 at 08:07:16
+187 verbose etag "AJZG3F9BBUBU91J9Y6TINU9II"
+188 http GET https://registry.npmjs.org/bower
+189 info trying registry request attempt 2 at 08:07:16
+190 verbose etag "E9REU2SU6ZTN8DSHU9RRQK8L9"
+191 http GET https://registry.npmjs.org/shelljs
+192 info retry will retry, error on last attempt: Error: tunneling socket could not be established, cause=getaddrinfo ENOTFOUND
+193 info trying registry request attempt 2 at 08:07:16
+194 verbose etag "5JKD5P9ZJ10Q5JLNWNZ0ZSBWP"
+195 http GET https://registry.npmjs.org/tmp
+196 info retry will retry, error on last attempt: Error: tunneling socket could not be established, cause=getaddrinfo ENOTFOUND
+197 info retry will retry, error on last attempt: Error: tunneling socket could not be established, cause=getaddrinfo ENOTFOUND
+198 info retry will retry, error on last attempt: Error: tunneling socket could not be established, cause=getaddrinfo ENOTFOUND
+199 info retry will retry, error on last attempt: Error: tunneling socket could not be established, cause=getaddrinfo ENOTFOUND
+200 info retry will retry, error on last attempt: Error: tunneling socket could not be established, cause=getaddrinfo ENOTFOUND
+201 info trying registry request attempt 3 at 08:08:16
+202 verbose etag "VORR8LHWJK4QEZWHEI16MFVJ"
+203 http GET https://registry.npmjs.org/karma-jasmine
+204 silly registry.get cb [ 304, undefined ]
+205 verbose etag https://registry.npmjs.org/karma-jasmine from cache
+206 info trying registry request attempt 3 at 08:08:16
+207 verbose etag "ETXR37D8SAPOZHGVSSW966B9D"
+208 http GET https://registry.npmjs.org/protractor
+209 silly registry.get cb [ 304, undefined ]
+210 verbose etag https://registry.npmjs.org/protractor from cache
+211 silly addNameRange number 2 { name: 'karma-jasmine',
+211 silly addNameRange   range: '>=0.1.5-0 <0.2.0-0',
+211 silly addNameRange   hasData: true }
+212 silly addNameRange versions [ 'karma-jasmine',
+212 silly addNameRange   [ '0.0.1',
+212 silly addNameRange     '0.0.2',
+212 silly addNameRange     '0.0.3',
+212 silly addNameRange     '0.1.0',
+212 silly addNameRange     '0.1.1',
+212 silly addNameRange     '0.1.2',
+212 silly addNameRange     '0.1.3',
+212 silly addNameRange     '0.1.4',
+212 silly addNameRange     '0.1.5',
+212 silly addNameRange     '0.2.0',
+212 silly addNameRange     '0.2.1',
+212 silly addNameRange     '0.2.2',
+212 silly addNameRange     '0.2.3',
+212 silly addNameRange     '0.3.0',
+212 silly addNameRange     '0.3.1',
+212 silly addNameRange     '0.3.2',
+212 silly addNameRange     '0.3.3',
+212 silly addNameRange     '0.3.4',
+212 silly addNameRange     '0.3.5' ] ]
+213 verbose addNamed [ 'karma-jasmine', '0.1.5' ]
+214 verbose addNamed [ '0.1.5', '0.1.5' ]
+215 silly lockFile 46898725-karma-jasmine-0-1-5 karma-jasmine@0.1.5
+216 verbose lock karma-jasmine@0.1.5 /home/vivian/.npm/46898725-karma-jasmine-0-1-5.lock
+217 silly addNameRange number 2 { name: 'protractor',
+217 silly addNameRange   range: '>=1.0.0-0 <1.1.0-0',
+217 silly addNameRange   hasData: true }
+218 silly addNameRange versions [ 'protractor',
+218 silly addNameRange   [ '0.1.0',
+218 silly addNameRange     '0.1.1',
+218 silly addNameRange     '0.1.2',
+218 silly addNameRange     '0.1.3',
+218 silly addNameRange     '0.2.0',
+218 silly addNameRange     '0.2.1',
+218 silly addNameRange     '0.3.0',
+218 silly addNameRange     '0.4.0',
+218 silly addNameRange     '0.4.1',
+218 silly addNameRange     '0.5.0',
+218 silly addNameRange     '0.6.1',
+218 silly addNameRange     '0.7.0',
+218 silly addNameRange     '0.8.0',
+218 silly addNameRange     '0.9.0',
+218 silly addNameRange     '0.10.0',
+218 silly addNameRange     '0.11.0',
+218 silly addNameRange     '0.12.0',
+218 silly addNameRange     '0.12.1',
+218 silly addNameRange     '0.13.0',
+218 silly addNameRange     '0.14.0',
+218 silly addNameRange     '0.15.0',
+218 silly addNameRange     '0.16.0',
+218 silly addNameRange     '0.16.1',
+218 silly addNameRange     '0.17.0',
+218 silly addNameRange     '0.18.0',
+218 silly addNameRange     '0.18.1',
+218 silly addNameRange     '0.19.0',
+218 silly addNameRange     '0.20.0',
+218 silly addNameRange     '0.20.1',
+218 silly addNameRange     '0.21.0',
+218 silly addNameRange     '0.22.0',
+218 silly addNameRange     '0.23.0',
+218 silly addNameRange     '0.23.1',
+218 silly addNameRange     '0.24.0',
+218 silly addNameRange     '0.24.1',
+218 silly addNameRange     '0.24.2',
+218 silly addNameRange     '1.0.0-rc1',
+218 silly addNameRange     '1.0.0-rc2',
+218 silly addNameRange     '1.0.0-rc3',
+218 silly addNameRange     '1.0.0-rc4',
+218 silly addNameRange     '1.0.0-rc5',
+218 silly addNameRange     '1.0.0-rc6',
+218 silly addNameRange     '1.0.0',
+218 silly addNameRange     '1.1.0',
+218 silly addNameRange     '1.1.1',
+218 silly addNameRange     '1.2.0-beta1',
+218 silly addNameRange     '1.2.0',
+218 silly addNameRange     '1.3.0',
+218 silly addNameRange     '1.3.1',
+218 silly addNameRange     '1.4.0',
+218 silly addNameRange     '1.5.0',
+218 silly addNameRange     '1.6.0',
+218 silly addNameRange     '1.6.1',
+218 silly addNameRange     '1.7.0',
+218 silly addNameRange     '1.8.0',
+218 silly addNameRange     '2.0.0' ] ]
+219 verbose addNamed [ 'protractor', '1.0.0' ]
+220 verbose addNamed [ '1.0.0', '1.0.0' ]
+221 silly lockFile 5242d932-protractor-1-0-0 protractor@1.0.0
+222 verbose lock protractor@1.0.0 /home/vivian/.npm/5242d932-protractor-1-0-0.lock
+223 info trying registry request attempt 3 at 08:08:16
+224 verbose etag "8685RAQL1PW1BSYF9GWKIPFKG"
+225 http GET https://registry.npmjs.org/karma
+226 silly lockFile 46898725-karma-jasmine-0-1-5 karma-jasmine@0.1.5
+227 silly lockFile 46898725-karma-jasmine-0-1-5 karma-jasmine@0.1.5
+228 info trying registry request attempt 3 at 08:08:16
+229 verbose etag "49E8TO09NC75K07BOJVRPOK44"
+230 http GET https://registry.npmjs.org/http-server
+231 silly lockFile c833e44c--protractor-protractor-1-0-0-tgz https://registry.npmjs.org/protractor/-/protractor-1.0.0.tgz
+232 verbose lock https://registry.npmjs.org/protractor/-/protractor-1.0.0.tgz /home/vivian/.npm/c833e44c--protractor-protractor-1-0-0-tgz.lock
+233 info trying registry request attempt 3 at 08:08:16
+234 verbose etag "AJZG3F9BBUBU91J9Y6TINU9II"
+235 http GET https://registry.npmjs.org/bower
+236 info trying registry request attempt 3 at 08:08:16
+237 verbose etag "7SBUM18AQ875Q6AWWXQ3ZFH99"
+238 http GET https://registry.npmjs.org/karma-chrome-launcher
+239 silly lockFile 36fc1519-karma-jasmine-0-1-5 karma-jasmine@^0.1.5
+240 silly lockFile 36fc1519-karma-jasmine-0-1-5 karma-jasmine@^0.1.5
+241 info trying registry request attempt 3 at 08:08:16
+242 verbose etag "E9REU2SU6ZTN8DSHU9RRQK8L9"
+243 http GET https://registry.npmjs.org/shelljs
+244 silly registry.get cb [ 304, undefined ]
+245 verbose etag https://registry.npmjs.org/karma from cache
+246 verbose addRemoteTarball [ 'https://registry.npmjs.org/protractor/-/protractor-1.0.0.tgz',
+246 verbose addRemoteTarball   '3b0305712b5fff351b72f80e59c4e0874ea8a473' ]
+247 silly registry.get cb [ 304, undefined ]
+248 verbose etag https://registry.npmjs.org/http-server from cache
+249 info trying registry request attempt 3 at 08:08:16
+250 verbose etag "5JKD5P9ZJ10Q5JLNWNZ0ZSBWP"
+251 http GET https://registry.npmjs.org/tmp
+252 silly registry.get cb [ 304, undefined ]
+253 verbose etag https://registry.npmjs.org/bower from cache
+254 silly registry.get cb [ 304, undefined ]
+255 verbose etag https://registry.npmjs.org/karma-chrome-launcher from cache
+256 silly registry.get cb [ 304, undefined ]
+257 verbose etag https://registry.npmjs.org/shelljs from cache
+258 silly registry.get cb [ 304, undefined ]
+259 verbose etag https://registry.npmjs.org/tmp from cache
+260 silly addNameRange number 2 { name: 'karma', range: '>=0.12.16-0 <0.13.0-0', hasData: true }
+261 silly addNameRange versions [ 'karma',
+261 silly addNameRange   [ '0.8.0',
+261 silly addNameRange     '0.9.0-dart',
+261 silly addNameRange     '0.8.1',
+261 silly addNameRange     '0.8.2',
+261 silly addNameRange     '0.8.3',
+261 silly addNameRange     '0.9.0',
+261 silly addNameRange     '0.8.4',
+261 silly addNameRange     '0.9.1',
+261 silly addNameRange     '0.8.5',
+261 silly addNameRange     '0.9.2',
+261 silly addNameRange     '0.9.2-dart',
+261 silly addNameRange     '0.9.3',
+261 silly addNameRange     '0.8.6',
+261 silly addNameRange     '0.9.4',
+261 silly addNameRange     '0.8.7',
+261 silly addNameRange     '0.9.5',
+261 silly addNameRange     '0.9.6',
+261 silly addNameRange     '0.8.8',
+261 silly addNameRange     '0.9.7',
+261 silly addNameRange     '0.9.8',
+261 silly addNameRange     '0.10.0',
+261 silly addNameRange     '0.10.1',
+261 silly addNameRange     '0.10.2',
+261 silly addNameRange     '0.11.0',
+261 silly addNameRange     '0.11.1',
+261 silly addNameRange     '0.10.3',
+261 silly addNameRange     '0.10.4',
+261 silly addNameRange     '0.11.2',
+261 silly addNameRange     '0.11.3',
+261 silly addNameRange     '0.10.5',
+261 silly addNameRange     '0.11.4',
+261 silly addNameRange     '0.11.5',
+261 silly addNameRange     '0.10.6',
+261 silly addNameRange     '0.11.6',
+261 silly addNameRange     '0.10.7',
+261 silly addNameRange     '0.11.7',
+261 silly addNameRange     '0.11.8',
+261 silly addNameRange     '0.11.9',
+261 silly addNameRange     '0.10.8',
+261 silly addNameRange     '0.11.10',
+261 silly addNameRange     '0.11.11',
+261 silly addNameRange     '0.11.12',
+261 silly addNameRange     '0.11.11-dev',
+261 silly addNameRange     '0.10.9',
+261 silly addNameRange     '0.11.12-dev',
+261 silly addNameRange     '0.11.12-dev2',
+261 silly addNameRange     '0.11.13',
+261 silly addNameRange     '0.11.14',
+261 silly addNameRange     '0.12.0',
+261 silly addNameRange     '0.10.10',
+261 silly addNameRange     '0.12.1',
+261 silly addNameRange     '0.12.2',
+261 silly addNameRange     '0.12.3',
+261 silly addNameRange     '0.12.4',
+261 silly addNameRange     '0.12.5',
+261 silly addNameRange     '0.12.6',
+261 silly addNameRange     '0.12.6-beta-43e6e28',
+261 silly addNameRange     '0.12.7',
+261 silly addNameRange     '0.12.8',
+261 silly addNameRange     '0.12.9',
+261 silly addNameRange     '0.12.10',
+261 silly addNameRange     '0.12.11',
+261 silly addNameRange     '0.12.12',
+261 silly addNameRange     '0.12.11-beta-3029418',
+261 silly addNameRange     '0.12.13',
+261 silly addNameRange     '0.12.14',
+261 silly addNameRange     '0.12.15',
+261 silly addNameRange     '0.12.16',
+261 silly addNameRange     '0.12.16-beta-905422d',
+261 silly addNameRange     '0.12.17',
+261 silly addNameRange     '0.12.18',
+261 silly addNameRange     '0.12.19',
+261 silly addNameRange     '0.12.20',
+261 silly addNameRange     '0.12.21',
+261 silly addNameRange     '0.12.22',
+261 silly addNameRange     '0.12.23',
+261 silly addNameRange     '0.12.24',
+261 silly addNameRange     '0.12.24-beta-6cf7955',
+261 silly addNameRange     '0.12.25',
+261 silly addNameRange     '0.12.25-beta-37a7958',
+261 silly addNameRange     '0.12.25-beta-ad5bc24',
+261 silly addNameRange     '0.12.26',
+261 silly addNameRange     '0.12.27',
+261 silly addNameRange     '0.12.28',
+261 silly addNameRange     '0.12.28-beta-b9be580',
+261 silly addNameRange     '0.12.29',
+261 silly addNameRange     '0.12.30',
+261 silly addNameRange     '0.12.31',
+261 silly addNameRange     '0.12.28-beta-f65c864',
+261 silly addNameRange     '0.12.24-dev-test',
+261 silly addNameRange     '0.12.24-dev-socketio10',
+261 silly addNameRange     '0.12.24-dev-socketio10-2',
+261 silly addNameRange     '0.12.32-beta.0',
+261 silly addNameRange     '0.12.32' ] ]
+262 verbose addNamed [ 'karma', '0.12.31' ]
+263 verbose addNamed [ '0.12.31', '0.12.31' ]
+264 silly lockFile feea9de1-karma-0-12-31 karma@0.12.31
+265 verbose lock karma@0.12.31 /home/vivian/.npm/feea9de1-karma-0-12-31.lock
+266 silly addNameRange number 2 { name: 'http-server',
+266 silly addNameRange   range: '>=0.6.1-0 <0.7.0-0',
+266 silly addNameRange   hasData: true }
+267 silly addNameRange versions [ 'http-server',
+267 silly addNameRange   [ '0.1.0',
+267 silly addNameRange     '0.1.1',
+267 silly addNameRange     '0.1.3',
+267 silly addNameRange     '0.2.1',
+267 silly addNameRange     '0.2.2',
+267 silly addNameRange     '0.2.3',
+267 silly addNameRange     '0.2.4',
+267 silly addNameRange     '0.2.5',
+267 silly addNameRange     '0.2.6',
+267 silly addNameRange     '0.2.9',
+267 silly addNameRange     '0.3.0',
+267 silly addNameRange     '0.4.0',
+267 silly addNameRange     '0.4.1',
+267 silly addNameRange     '0.5.0',
+267 silly addNameRange     '0.5.1',
+267 silly addNameRange     '0.5.2',
+267 silly addNameRange     '0.5.3',
+267 silly addNameRange     '0.5.5',
+267 silly addNameRange     '0.6.0',
+267 silly addNameRange     '0.6.1',
+267 silly addNameRange     '0.7.0',
+267 silly addNameRange     '0.7.1',
+267 silly addNameRange     '0.7.2',
+267 silly addNameRange     '0.7.3',
+267 silly addNameRange     '0.7.4',
+267 silly addNameRange     '0.7.5',
+267 silly addNameRange     '0.8.0' ] ]
+268 verbose addNamed [ 'http-server', '0.6.1' ]
+269 verbose addNamed [ '0.6.1', '0.6.1' ]
+270 silly lockFile 1e2b2518-http-server-0-6-1 http-server@0.6.1
+271 verbose lock http-server@0.6.1 /home/vivian/.npm/1e2b2518-http-server-0-6-1.lock
+272 info retry fetch attempt 1 at 08:08:16
+273 verbose fetch to= /tmp/npm-4082-YqcJq9ud/registry.npmjs.org/protractor/-/protractor-1.0.0.tgz
+274 silly addNameRange number 2 { name: 'bower', range: '>=1.3.1-0 <2.0.0-0', hasData: true }
+275 silly addNameRange versions [ 'bower',
+275 silly addNameRange   [ '0.1.0',
+275 silly addNameRange     '0.1.2',
+275 silly addNameRange     '0.1.3',
+275 silly addNameRange     '0.2.0',
+275 silly addNameRange     '0.3.0',
+275 silly addNameRange     '0.3.1',
+275 silly addNameRange     '0.3.2',
+275 silly addNameRange     '0.4.0',
+275 silly addNameRange     '0.5.0',
+275 silly addNameRange     '0.5.1',
+275 silly addNameRange     '0.6.0',
+275 silly addNameRange     '0.6.1',
+275 silly addNameRange     '0.6.2',
+275 silly addNameRange     '0.6.3',
+275 silly addNameRange     '0.6.4',
+275 silly addNameRange     '0.6.5',
+275 silly addNameRange     '0.6.6',
+275 silly addNameRange     '0.6.7',
+275 silly addNameRange     '0.6.8',
+275 silly addNameRange     '0.7.0',
+275 silly addNameRange     '0.7.1',
+275 silly addNameRange     '0.8.0',
+275 silly addNameRange     '0.8.1',
+275 silly addNameRange     '0.8.2',
+275 silly addNameRange     '0.8.3',
+275 silly addNameRange     '0.8.4',
+275 silly addNameRange     '0.8.5',
+275 silly addNameRange     '0.8.6',
+275 silly addNameRange     '0.9.0',
+275 silly addNameRange     '0.9.1',
+275 silly addNameRange     '0.9.2',
+275 silly addNameRange     '0.10.0',
+275 silly addNameRange     '1.0.0',
+275 silly addNameRange     '1.0.1',
+275 silly addNameRange     '1.0.2',
+275 silly addNameRange     '1.0.3',
+275 silly addNameRange     '1.1.0',
+275 silly addNameRange     '1.1.1',
+275 silly addNameRange     '1.1.2',
+275 silly addNameRange     '1.2.0',
+275 silly addNameRange     '1.2.1',
+275 silly addNameRange     '1.2.2',
+275 silly addNameRange     '1.2.3',
+275 silly addNameRange     '1.2.4',
+275 silly addNameRange     '1.2.5',
+275 silly addNameRange     '1.2.6',
+275 silly addNameRange     '1.2.7',
+275 silly addNameRange     '1.2.8',
+275 silly addNameRange     '1.3.0',
+275 silly addNameRange     '1.3.1',
+275 silly addNameRange     '1.3.2',
+275 silly addNameRange     '1.3.3',
+275 silly addNameRange     '1.3.4',
+275 silly addNameRange     '1.3.5',
+275 silly addNameRange     '1.3.6',
+275 silly addNameRange     '1.3.7',
+275 silly addNameRange     '1.3.8',
+275 silly addNameRange     '1.3.9',
+275 silly addNameRange     '1.3.10',
+275 silly addNameRange     '1.3.11',
+275 silly addNameRange     '1.3.12',
+275 silly addNameRange     '1.4.0',
+275 silly addNameRange     '1.4.1' ] ]
+276 verbose addNamed [ 'bower', '1.4.1' ]
+277 verbose addNamed [ '1.4.1', '1.4.1' ]
+278 silly lockFile 185f46c0-bower-1-4-1 bower@1.4.1
+279 verbose lock bower@1.4.1 /home/vivian/.npm/185f46c0-bower-1-4-1.lock
+280 silly addNameRange number 2 { name: 'karma-chrome-launcher',
+280 silly addNameRange   range: '>=0.1.4-0 <0.2.0-0',
+280 silly addNameRange   hasData: true }
+281 silly addNameRange versions [ 'karma-chrome-launcher',
+281 silly addNameRange   [ '0.0.1',
+281 silly addNameRange     '0.0.2',
+281 silly addNameRange     '0.1.0',
+281 silly addNameRange     '0.1.1',
+281 silly addNameRange     '0.1.2',
+281 silly addNameRange     '0.1.3',
+281 silly addNameRange     '0.1.4',
+281 silly addNameRange     '0.1.5',
+281 silly addNameRange     '0.1.6',
+281 silly addNameRange     '0.1.7',
+281 silly addNameRange     '0.1.8',
+281 silly addNameRange     '0.1.9',
+281 silly addNameRange     '0.1.10',
+281 silly addNameRange     '0.1.11',
+281 silly addNameRange     '0.1.12' ] ]
+282 verbose addNamed [ 'karma-chrome-launcher', '0.1.12' ]
+283 verbose addNamed [ '0.1.12', '0.1.12' ]
+284 silly lockFile f5f807cc-karma-chrome-launcher-0-1-12 karma-chrome-launcher@0.1.12
+285 verbose lock karma-chrome-launcher@0.1.12 /home/vivian/.npm/f5f807cc-karma-chrome-launcher-0-1-12.lock
+286 silly addNameRange number 2 { name: 'shelljs', range: '>=0.2.6-0 <0.3.0-0', hasData: true }
+287 silly addNameRange versions [ 'shelljs',
+287 silly addNameRange   [ '0.0.1',
+287 silly addNameRange     '0.0.2',
+287 silly addNameRange     '0.0.3',
+287 silly addNameRange     '0.0.4',
+287 silly addNameRange     '0.0.5',
+287 silly addNameRange     '0.0.6',
+287 silly addNameRange     '0.0.7',
+287 silly addNameRange     '0.0.8',
+287 silly addNameRange     '0.0.9',
+287 silly addNameRange     '0.1.0',
+287 silly addNameRange     '0.1.1',
+287 silly addNameRange     '0.1.2',
+287 silly addNameRange     '0.1.3',
+287 silly addNameRange     '0.1.4',
+287 silly addNameRange     '0.2.0',
+287 silly addNameRange     '0.2.1',
+287 silly addNameRange     '0.2.2',
+287 silly addNameRange     '0.2.3',
+287 silly addNameRange     '0.2.4',
+287 silly addNameRange     '0.2.5',
+287 silly addNameRange     '0.2.6',
+287 silly addNameRange     '0.3.0',
+287 silly addNameRange     '0.4.0',
+287 silly addNameRange     '0.0.1-alpha1',
+287 silly addNameRange     '0.0.2-pre1',
+287 silly addNameRange     '0.0.4-pre1',
+287 silly addNameRange     '0.0.5-pre1',
+287 silly addNameRange     '0.0.5-pre2',
+287 silly addNameRange     '0.0.5-pre3',
+287 silly addNameRange     '0.0.5-pre4',
+287 silly addNameRange     '0.0.6-pre1',
+287 silly addNameRange     '0.0.6-pre2' ] ]
+288 verbose addNamed [ 'shelljs', '0.2.6' ]
+289 verbose addNamed [ '0.2.6', '0.2.6' ]
+290 silly lockFile 542b9617-shelljs-0-2-6 shelljs@0.2.6
+291 verbose lock shelljs@0.2.6 /home/vivian/.npm/542b9617-shelljs-0-2-6.lock
+292 http GET https://registry.npmjs.org/protractor/-/protractor-1.0.0.tgz
+293 error fetch failed https://registry.npmjs.org/protractor/-/protractor-1.0.0.tgz
+294 info retry will retry, error on last attempt: Error: tunneling socket could not be established, cause=getaddrinfo ENOTFOUND
+295 silly lockFile f7638ceb-tmp-0-0-23 tmp@0.0.23
+296 silly lockFile f7638ceb-tmp-0-0-23 tmp@0.0.23
+297 silly lockFile f5f807cc-karma-chrome-launcher-0-1-12 karma-chrome-launcher@0.1.12
+298 silly lockFile f5f807cc-karma-chrome-launcher-0-1-12 karma-chrome-launcher@0.1.12
+299 silly lockFile cd7d8138-karma-chrome-launcher-0-1-4 karma-chrome-launcher@^0.1.4
+300 silly lockFile cd7d8138-karma-chrome-launcher-0-1-4 karma-chrome-launcher@^0.1.4
+301 silly lockFile 185f46c0-bower-1-4-1 bower@1.4.1
+302 silly lockFile 185f46c0-bower-1-4-1 bower@1.4.1
+303 silly lockFile 7c83895e-bower-1-3-1 bower@^1.3.1
+304 silly lockFile 7c83895e-bower-1-3-1 bower@^1.3.1
+305 silly lockFile feea9de1-karma-0-12-31 karma@0.12.31
+306 silly lockFile feea9de1-karma-0-12-31 karma@0.12.31
+307 silly lockFile 544376fe-karma-0-12-16 karma@^0.12.16
+308 silly lockFile 544376fe-karma-0-12-16 karma@^0.12.16
+309 silly lockFile 1e2b2518-http-server-0-6-1 http-server@0.6.1
+310 silly lockFile 1e2b2518-http-server-0-6-1 http-server@0.6.1
+311 silly lockFile e7eeaefd-http-server-0-6-1 http-server@^0.6.1
+312 silly lockFile e7eeaefd-http-server-0-6-1 http-server@^0.6.1
+313 silly lockFile 542b9617-shelljs-0-2-6 shelljs@0.2.6
+314 silly lockFile 542b9617-shelljs-0-2-6 shelljs@0.2.6
+315 silly lockFile cdaabbbd-shelljs-0-2-6 shelljs@^0.2.6
+316 silly lockFile cdaabbbd-shelljs-0-2-6 shelljs@^0.2.6
+317 info retry fetch attempt 2 at 08:08:26
+318 verbose fetch to= /tmp/npm-4082-YqcJq9ud/registry.npmjs.org/protractor/-/protractor-1.0.0.tgz
+319 http GET https://registry.npmjs.org/protractor/-/protractor-1.0.0.tgz
+320 error fetch failed https://registry.npmjs.org/protractor/-/protractor-1.0.0.tgz
+321 info retry will retry, error on last attempt: Error: tunneling socket could not be established, cause=getaddrinfo ENOTFOUND
+322 info retry fetch attempt 3 at 08:09:26
+323 verbose fetch to= /tmp/npm-4082-YqcJq9ud/registry.npmjs.org/protractor/-/protractor-1.0.0.tgz
+324 http GET https://registry.npmjs.org/protractor/-/protractor-1.0.0.tgz
+325 error fetch failed https://registry.npmjs.org/protractor/-/protractor-1.0.0.tgz
+326 silly lockFile c833e44c--protractor-protractor-1-0-0-tgz https://registry.npmjs.org/protractor/-/protractor-1.0.0.tgz
+327 silly lockFile c833e44c--protractor-protractor-1-0-0-tgz https://registry.npmjs.org/protractor/-/protractor-1.0.0.tgz
+328 silly lockFile 5242d932-protractor-1-0-0 protractor@1.0.0
+329 silly lockFile 5242d932-protractor-1-0-0 protractor@1.0.0
+330 silly lockFile f198f730-protractor-1-0-0 protractor@~1.0.0
+331 silly lockFile f198f730-protractor-1-0-0 protractor@~1.0.0
+332 error network tunneling socket could not be established, cause=getaddrinfo ENOTFOUND
+332 error network This is most likely not a problem with npm itself
+332 error network and is related to network connectivity.
+332 error network In most cases you are behind a proxy or have bad network settings.
+332 error network
+332 error network If you are behind a proxy, please make sure that the
+332 error network 'proxy' config is set properly.  See: 'npm help config'
+333 error System Linux 3.13.0-32-generic
+334 error command "/usr/bin/node" "/usr/bin/npm" "install"
+335 error cwd /home/vivian/Desktop/Angularjs/angular-phonecat
+336 error node -v v0.10.38
+337 error npm -v 1.4.28
+338 error code ECONNRESET
+339 verbose exit [ 1, true ]
